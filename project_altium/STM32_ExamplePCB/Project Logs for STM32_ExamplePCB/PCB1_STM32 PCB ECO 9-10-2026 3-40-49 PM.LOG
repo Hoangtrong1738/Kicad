@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Change Component Description : Designator=J1 Old Description=Conn Data USB Micro B w/Flange SMT Bottom Mnt LF New Description=Conn Data USB Micro B w/Flange SMT Bottom Mnt LF | Molex Incorporated 47346-0001
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-18
+Add Pin To Net: Unknown Pin: Pin U3-20
+Add Pin To Net: Unknown Pin: Pin U3-23
+Add Pin To Net: Unknown Pin: Pin U3-24
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
