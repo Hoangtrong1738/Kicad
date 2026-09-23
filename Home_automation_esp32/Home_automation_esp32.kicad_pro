@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -74,11 +74,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.3,
-          "via_gap": 0.5,
-          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -216,8 +211,11 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.5
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        2.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -249,10 +247,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -512,7 +506,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "project_hardware.kicad_pro",
+    "filename": "Home_automation_esp32.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -673,14 +667,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -688,17 +674,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "project_hardware.kicad_sch",
+        "filename": "Home_automation_esp32.kicad_sch",
         "name": "Root",
-        "uuid": "da8c2f2c-cd4c-409b-a851-bf780dedba96"
+        "uuid": "2e540afd-d33f-4cf1-90c1-ac617d9bcd51"
       }
     ],
-    "used_designators": "U1-2,#PWR1-24,C1-13,FB1,SW1,#FLG1,R1-5,J1-4,Y1,D1-2,H1-4",
+    "used_designators": "U1-5,J1-3,#FLG1-2,R1-8,K1-3,C1-5,D1-4,SW1-2,Q1-2,#PWR1-19,H1-4",
     "variants": []
   },
   "sheets": [
     [
-      "da8c2f2c-cd4c-409b-a851-bf780dedba96",
+      "2e540afd-d33f-4cf1-90c1-ac617d9bcd51",
       "Root"
     ]
   ],

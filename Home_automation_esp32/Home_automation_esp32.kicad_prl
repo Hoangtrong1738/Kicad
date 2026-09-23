@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -54,7 +54,7 @@
       "ly_points"
     ],
     "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "project_hardware.kicad_prl",
+    "filename": "Home_automation_esp32.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      113,
+      222,
+      207,
+      136,
       92,
-      112,
-      115,
-      112,
+      136,
+      136,
+      136,
       98,
-      112,
-      112
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
