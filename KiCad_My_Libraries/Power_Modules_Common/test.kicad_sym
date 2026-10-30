@@ -1,0 +1,12 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+ (symbol "TEST"
+  (property "Reference" "U" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+  (property "Value" "TEST" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+  (property "Footprint" "" (id 2) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+  (property "Datasheet" "" (id 3) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+  (symbol "TEST_0_1"
+   (rectangle (start -5.08 2.54) (end 5.08 -2.54) (stroke (width 0) (type default)) (fill (type background)))
+   (pin power_in line (at -7.62 0 0) (length 2.54) (name "IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+  )
+ )
+)

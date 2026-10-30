@@ -1,0 +1,14 @@
+#VRML V2.0 utf8
+WorldInfo { title "LM2596 DC/DC buck power module" }
+Transform {
+  children [
+    Shape { appearance Appearance { material Material { diffuseColor 0.03 0.16 0.55 } } geometry Box { size 45 22 1.6 } }
+    Transform { translation 0 0 2.2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Box { size 10.799999999999999 7.48 2.8 } } ] }
+    Transform { translation -8.1 0 3.4 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Cylinder { radius 5 height 3 } } ] }
+    Transform { translation 8.1 0 3.4 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Cylinder { radius 5 height 3 } } ] }
+    Transform { translation -17.55 -7.48 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation -17.55 7.48 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation 17.55 -7.48 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation 17.55 7.48 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+  ]
+}

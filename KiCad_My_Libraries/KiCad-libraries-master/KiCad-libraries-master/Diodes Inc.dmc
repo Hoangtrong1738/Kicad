@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRDC3105
+D Integrated Relay, Inductive Load Driver
+K Relay driver
+$ENDCMP
+#
+$CMP DRDC3105E6
+D Integrated Relay, Inductive Load Driver
+K Relay driver
+$ENDCMP
+#
+#End Doc Library

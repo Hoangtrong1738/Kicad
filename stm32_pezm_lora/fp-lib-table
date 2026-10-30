@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BluePill") (type "KiCad") (uri "D:/Kicad/KiCad_My_Libraries/STM32_BluePill/BluePill.pretty") (options "") (descr ""))
+)

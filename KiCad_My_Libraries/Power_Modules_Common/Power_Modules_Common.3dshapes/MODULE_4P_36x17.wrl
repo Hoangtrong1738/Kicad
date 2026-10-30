@@ -1,0 +1,14 @@
+#VRML V2.0 utf8
+WorldInfo { title "Compact DC/DC module power module" }
+Transform {
+  children [
+    Shape { appearance Appearance { material Material { diffuseColor 0.03 0.16 0.55 } } geometry Box { size 36 17 1.6 } }
+    Transform { translation 0 0 2.2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Box { size 8.64 5.78 2.8 } } ] }
+    Transform { translation -6.4799999999999995 0 3.4 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Cylinder { radius 3.91 height 3 } } ] }
+    Transform { translation 6.4799999999999995 0 3.4 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 } } geometry Cylinder { radius 3.91 height 3 } } ] }
+    Transform { translation -14.040000000000001 -5.78 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation -14.040000000000001 5.78 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation 14.040000000000001 -5.78 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+    Transform { translation 14.040000000000001 5.78 -2 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.72 0.72 } } geometry Cylinder { radius 1.9 height 4 } } ] }
+  ]
+}
