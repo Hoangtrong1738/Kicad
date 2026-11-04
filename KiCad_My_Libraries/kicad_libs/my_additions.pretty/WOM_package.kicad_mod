@@ -1,0 +1,170 @@
+(footprint "WOM_package"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode bridge")
+	(property "Reference" "REF**"
+		(at 0 -5.715 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ddf05a4f-e943-4ccb-8663-211a5801342a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WOM_package"
+		(at -0.2 5.715 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2ee1014-353b-41ea-9939-8696768d0893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f6badc-0982-48cc-bd2e-8573077acc7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47db02f4-cd95-404e-a8b4-09e887191fdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fde410b0-c398-4aca-8278-c3610288e8c0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.7 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8fe7ce72-f1fb-4749-8ab2-7ecd3c557e67")
+	)
+	(fp_text user "~"
+		(at -1.905 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37324c33-ae76-4bb6-8c66-90485cb32bd9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 1.905 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5eb19350-4d6b-46e7-b4fb-8f757292ce66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "~"
+		(at 1.905 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0a4cd85-cc57-4538-8489-24e1fa6aad48")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.905 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2df77e0-eded-435d-bef8-c151f3b26f5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a6814d5-38db-43ed-8c27-eb8700010790")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f209b6-faaf-4475-b83c-fd0add9a9520")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f9acc25-8b85-47be-9e42-9c3c667a7d2b")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74e4d755-2d96-4314-a5da-c1f35203a178")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/WOM_package.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

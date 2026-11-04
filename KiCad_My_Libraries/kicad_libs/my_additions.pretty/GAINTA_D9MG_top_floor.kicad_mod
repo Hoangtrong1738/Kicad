@@ -1,0 +1,327 @@
+(footprint "GAINTA_D9MG_top_floor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "791326a7-0481-4a9b-9eea-be0b8cd0d478")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GAINTA_D9MG_top_floor"
+		(at 80.95 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "675c2f09-5e23-4f1d-a7ee-63951e4638c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6d5451-e728-4e5d-9be1-69f4c9c25213")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "GAINTA D9MG DIN rail case"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2fe2486-0dcb-4796-813d-3ec23eccf59a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files)
+	(fp_line
+		(start 25.5 -63.3)
+		(end 25.5 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "db448f1d-95a7-43f0-b2b1-26d354610f77")
+	)
+	(fp_line
+		(start 29.5 -63.3)
+		(end 29.5 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "2da37d9b-11f2-47f5-9625-90297519d4ba")
+	)
+	(fp_line
+		(start 62.9 -63.3)
+		(end 62.9 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "dbc77ac1-460d-471d-8b0c-a5014b3159b1")
+	)
+	(fp_line
+		(start 66.9 -27.2)
+		(end 66.9 -63.3)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "8ba12ece-b83b-4ef2-b165-f58c205abf05")
+	)
+	(fp_line
+		(start 93 -63.3)
+		(end 93 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "55d48e98-1493-44e9-b986-2ef37312b431")
+	)
+	(fp_line
+		(start 97 -27.2)
+		(end 97 -63.3)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "b61fbab1-f465-4c89-b9bb-ce90b2cb8419")
+	)
+	(fp_line
+		(start 130.5 -27.2)
+		(end 130.5 -63.3)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "23a39a07-cfc2-47be-977e-896851601397")
+	)
+	(fp_line
+		(start 134.5 -63.3)
+		(end 134.5 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "Eco2.User")
+		(uuid "50955dca-7c81-4883-9c0a-16172996a6c7")
+	)
+	(fp_rect
+		(start 4.5 -63.3)
+		(end 155.5 -27.2)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "190ea51a-1d25-437f-991d-a54baaf96db8")
+	)
+	(fp_rect
+		(start 1.9 -66.25)
+		(end 158.1 -24.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0d80265c-23d2-49b5-a2be-cb62fe7a945a")
+	)
+	(fp_rect
+		(start 33.8 -74.428)
+		(end 36.2 -65.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "3b3538b3-8db1-4ca6-b60d-ec19d9bddea8")
+	)
+	(fp_rect
+		(start 33.8 -24.99)
+		(end 36.2 -16.072)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "05339a8f-fef1-4a17-bbc2-2c9384336b8a")
+	)
+	(fp_rect
+		(start 123.8 -74.428)
+		(end 126.2 -65.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "2f1032bb-aacb-41f5-b566-0bdd135caa99")
+	)
+	(fp_rect
+		(start 123.8 -24.99)
+		(end 126.2 -16.072)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "ab980b24-91fb-4c76-8e77-56c8efe16b10")
+	)
+	(fp_circle
+		(center 4.5 -64.5)
+		(end 5.815 -64.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "61f632bc-f70d-42c3-ba96-8e25e8b274ab")
+	)
+	(fp_circle
+		(center 4.5 -26)
+		(end 5.815 -26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "51d05737-70df-4c95-9fe2-496787e1bb59")
+	)
+	(fp_circle
+		(center 30 -64.5)
+		(end 30.815 -64.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5146cf37-c044-4fb5-879d-53ea5c6c3085")
+	)
+	(fp_circle
+		(center 50.2 -26)
+		(end 51.015 -26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b23af34-24a3-4b3e-b0e1-ca1595632a4e")
+	)
+	(fp_circle
+		(center 73 -64.5)
+		(end 73.815 -64.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "71c9e862-77c9-4b3d-b827-4e4122a02e65")
+	)
+	(fp_circle
+		(center 87 -26)
+		(end 87.815 -26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f535df52-6a5c-4ebe-a1bb-5dcd063d1a53")
+	)
+	(fp_circle
+		(center 109.8 -64.5)
+		(end 110.615 -64.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e34268d4-b81b-43fa-80fc-4c6289989b7d")
+	)
+	(fp_circle
+		(center 130 -26)
+		(end 130.815 -26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "165a6473-1eb2-45f0-83df-b4537b4ebc73")
+	)
+	(fp_circle
+		(center 155.5 -64.5)
+		(end 156.815 -64.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bb4cdd38-48b2-4005-acc3-7b0720697c52")
+	)
+	(fp_circle
+		(center 155.5 -26)
+		(end 156.815 -26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "07eb9bbe-e5c6-4116-8fa6-2be59545fa6f")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/ASSY_GAINTA_D9MG.stp"
+		(opacity 0.4900)
+		(offset
+			(xyz 0 0 -48.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

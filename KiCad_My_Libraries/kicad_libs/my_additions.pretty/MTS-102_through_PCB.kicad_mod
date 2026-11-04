@@ -1,0 +1,235 @@
+(footprint "MTS-102_through_PCB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.255 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04721ff6-8d75-4e32-9fdc-e3b118c2ef18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MTS-102_through_PCB"
+		(at 0 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "939fdc9e-403a-4021-bb5b-32d55f429b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1a52f29-4798-42cf-afb1-2bd058ad659f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a4cfd78-6737-4eed-aa58-c0a1dab27aa2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 5.7 -4.6)
+		(end 5.7 -4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f75e59d9-e279-427c-ae1f-321e7fb36562")
+	)
+	(fp_line
+		(start 5.7 -4.1)
+		(end 4.5 -4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0063517-847c-48d8-9b68-3898f025d897")
+	)
+	(fp_line
+		(start 5.7 0.1)
+		(end 5.7 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fad68fed-6f10-4c89-aac5-641a439e7fd4")
+	)
+	(fp_line
+		(start 5.7 0.6)
+		(end 4.5 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b5c5fb0-ef19-4273-a7b8-dfeba40c387d")
+	)
+	(fp_line
+		(start 5.7 4.8)
+		(end 5.7 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7a6ef4c-90e3-4942-acc5-b0c36940a72b")
+	)
+	(fp_line
+		(start 5.7 5.3)
+		(end 4.5 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b5ee438-51ad-463f-8716-9288fbabbe0b")
+	)
+	(fp_line
+		(start -4.3 7)
+		(end -4.3 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a6bb8d9-3878-4cc2-80ed-82a3ce211a05")
+	)
+	(fp_line
+		(start -3.8 -7.5)
+		(end 3.8 -7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d9f50d04-90c5-47c9-a29a-ab36db37ba37")
+	)
+	(fp_line
+		(start 3.8 7.5)
+		(end -3.8 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddd06498-be3b-411f-b1b3-059477fcddba")
+	)
+	(fp_line
+		(start 4.3 -7)
+		(end 4.3 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6cd8a1ad-83b5-47cc-b2a7-23e992233c9d")
+	)
+	(fp_arc
+		(start -4.3 -7)
+		(mid -4.153553 -7.353553)
+		(end -3.8 -7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0a8d6f7-afef-433f-8c80-5cbb2b5fe30d")
+	)
+	(fp_arc
+		(start -3.8 7.5)
+		(mid -4.153553 7.353553)
+		(end -4.3 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c6ba3e2-c042-4eba-b50f-b8ad606cb339")
+	)
+	(fp_arc
+		(start 3.8 -7.5)
+		(mid 4.153553 -7.353553)
+		(end 4.3 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e5bc8215-75a0-4912-9eec-f19d8c045991")
+	)
+	(fp_arc
+		(start 4.3 7)
+		(mid 4.153553 7.353553)
+		(end 3.8 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4b4fa1f-6882-48f8-a067-3938fbe96312")
+	)
+	(pad "1" thru_hole oval
+		(at 5.7 -5.5)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da4813d8-8138-4ab1-b6f4-f7dda410b407")
+	)
+	(pad "2" thru_hole oval
+		(at 5.7 -0.8)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea1fd14e-7d51-43ff-ba8a-169910db15e9")
+	)
+	(pad "3" thru_hole oval
+		(at 5.7 3.9)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f100c6e-4e38-42e0-807c-e48ce9f0cb9f")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/MTS-1xx-A1-blue_with_leads.step"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

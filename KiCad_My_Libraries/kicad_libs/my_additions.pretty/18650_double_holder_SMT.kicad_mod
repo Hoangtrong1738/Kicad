@@ -1,0 +1,270 @@
+(footprint "18650_double_holder_SMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Double 18650 battery holder")
+	(tags "battery, holder, 18650")
+	(property "Reference" "REF**"
+		(at -38.9 -21.1 0)
+		(layer "F.SilkS")
+		(uuid "b3b6ef52-0361-4aba-9c98-cc83c1aae260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "18650_double_holder_SMT"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "015ecf8d-0d41-4942-b05c-9052745518d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb68e5d7-d6d5-4ebc-bb2d-a394856c0240")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15401cec-bab2-48bd-8d34-ede60dcb99f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -38.6 -20.1)
+		(end -38.6 -13)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36f6d6f6-c0b7-49f7-be85-bb12f738965b")
+	)
+	(fp_line
+		(start -38.6 -6.1)
+		(end -38.6 6.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4eb3ad-1ecd-44d0-8913-9be28acfc17a")
+	)
+	(fp_line
+		(start -38.6 20.1)
+		(end -38.6 13)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "83ed7f61-7930-40ae-8b4e-865bb62beffb")
+	)
+	(fp_line
+		(start 38.6 -20.1)
+		(end -38.6 -20.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6918153-7cc6-4879-a604-f9c92e9a7013")
+	)
+	(fp_line
+		(start 38.6 -13)
+		(end 38.6 -20.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b52f50a4-df3f-483b-a9ec-e4252ec0e2ad")
+	)
+	(fp_line
+		(start 38.6 6.1)
+		(end 38.6 -6.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6f0fb4b-e51e-473a-b401-1a77bb4b2c56")
+	)
+	(fp_line
+		(start 38.6 20.1)
+		(end -38.6 20.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a519c515-e45d-4c55-933d-4826083be1a3")
+	)
+	(fp_line
+		(start 38.6 20.1)
+		(end 38.6 13)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f4ca586-5df8-4b8c-a9b0-99221ccdcb1f")
+	)
+	(fp_rect
+		(start -38.5 -20)
+		(end 38.5 20)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "25ebb8a1-b118-48c8-8857-885998df7fae")
+	)
+	(fp_line
+		(start -38.4 -5.7)
+		(end 38.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8cdccb6c-54d1-4424-abe4-ccfb9901c532")
+	)
+	(fp_line
+		(start -38.4 13.4)
+		(end 38.4 13.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cb7ecc0a-986a-4d1f-8488-bf836a36ae5c")
+	)
+	(fp_line
+		(start 38.4 -13.4)
+		(end -38.4 -13.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3223cc2f-483b-4aee-b7ae-2b11e1c253bc")
+	)
+	(fp_line
+		(start 38.4 5.7)
+		(end -38.4 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aa2f2e2e-30a7-42c0-9658-3963291bbcd2")
+	)
+	(fp_rect
+		(start -38.4 -19.9)
+		(end 38.4 19.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aebd283c-9645-407c-ab2d-2b9d2acce569")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff4e5074-6d09-49dd-bda3-7c2f199d22e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -27.6 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6b8c6349-9ec7-4baa-b6de-f5035c7db794")
+	)
+	(pad "" np_thru_hole circle
+		(at 27.6 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6b7988b1-4699-4e8f-aa14-f64a0c3008e3")
+	)
+	(pad "" np_thru_hole circle
+		(at 35.82 17.505)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cc4ddadb-d7a2-4e2e-915b-c2d36ec9b020")
+	)
+	(pad "1" smd rect
+		(at 39.83 9.555)
+		(size 8.34 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e10e4f01-cb1e-4994-9db3-a484753f1bb8")
+	)
+	(pad "2" smd rect
+		(at -39.83 9.555)
+		(size 8.34 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "106a7d8b-fb69-42d3-b720-18a3af58c83b")
+	)
+	(pad "3" smd rect
+		(at -39.83 -9.555)
+		(size 8.34 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d039db73-dae7-46ad-93c0-1cbf049fb1fc")
+	)
+	(pad "4" smd rect
+		(at 39.83 -9.555)
+		(size 8.34 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b97c3835-f508-4e8f-85c1-bc50a540bcd5")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/18650_double_holder_SMT.STEP"
+		(offset
+			(xyz 0 0 7.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,246 @@
+(footprint "KLS5-CR2032-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "KLS5-CR2032-01, BH-642, CH224-2032. CR2032 battery cell holder")
+	(tags "battery, holder, cr2032")
+	(property "Reference" "REF**"
+		(at 10.5 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "7a06462d-0b42-4640-8b7b-dde240ed33bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "KLS5-CR2032-01"
+		(at 0 3.3 0)
+		(layer "F.Fab")
+		(uuid "0a741ecf-60e8-4f00-ae34-c4408124b997")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc37f31a-6625-41e2-993d-4ddd4d0fec30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34a66c4c-a07d-423b-b4ea-ccef23d816c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 10.499999 -3.9)
+		(end 13.4 -3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81080e87-c287-4162-b92f-5cd53eaeb114")
+	)
+	(fp_line
+		(start 13.4 -3.9)
+		(end 13.4 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dab1a89e-ba66-4d30-8d24-226faf259c1a")
+	)
+	(fp_line
+		(start 13.4 3.9)
+		(end 10.499999 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c092500-109c-490f-aeac-ee6bf61efa86")
+	)
+	(fp_arc
+		(start 10.499999 3.9)
+		(mid -11.20089 0)
+		(end 10.499999 -3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "970c8a9b-1f3c-4b82-a05b-120804cd9ac9")
+	)
+	(fp_line
+		(start 10.4 -3.8)
+		(end 13.3 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2763410-6c46-47be-8a19-493f30ecb2ab")
+	)
+	(fp_line
+		(start 13.3 -3.8)
+		(end 13.3 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c131a590-b684-4631-b9e4-03de89034ca2")
+	)
+	(fp_line
+		(start 13.3 3.8)
+		(end 10.4 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed51486a-ee4c-4b0b-882f-aed76932f904")
+	)
+	(fp_arc
+		(start 10.4 3.8)
+		(mid -11.072488 0)
+		(end 10.4 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "078b3f14-1f61-4dfd-b421-a3735145b7bb")
+	)
+	(fp_line
+		(start 13.25 -3.75)
+		(end 10.4 -3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d09faec6-34ba-4484-821a-4c00bc0ed635")
+	)
+	(fp_line
+		(start 13.25 -3.75)
+		(end 13.25 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "42c7957a-4dff-4e43-9f54-72686861bbed")
+	)
+	(fp_line
+		(start 13.25 3.75)
+		(end 10.4 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "993157ba-3e92-4d59-8775-ba45658f3579")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.05 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f42ebe5d-535d-44e3-aad8-aef766bdecb2")
+	)
+	(fp_text user "+"
+		(at 10.7 3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b68a9a5-0f90-4157-b063-5b832d9fba5b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 9 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50d5a671-ff43-4052-908f-bc94ad4bcc93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(uuid "a9b827e4-3664-4f8d-af52-35e48c22f99e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 12 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58eacb1a-65e7-4009-a01d-8b86d02caf1b")
+	)
+	(pad "2" thru_hole circle
+		(at -8 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e503268-ae11-4a7d-97c4-96243cc0b555")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/KLS5-CR2032-01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

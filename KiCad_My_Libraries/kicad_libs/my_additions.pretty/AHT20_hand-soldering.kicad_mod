@@ -1,0 +1,229 @@
+(footprint "AHT20_hand-soldering"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Humidity and Temperature Sensor")
+	(tags "humidity, temperature, sensor")
+	(property "Reference" "REF**"
+		(at 0.1 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fadb8cbd-0ecf-417d-bc89-d413bda90d34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AHT20_hand-soldering"
+		(at 0.3 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a929f35a-e04e-4f3c-8b09-10072ce4d0fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "662a9b15-31f8-475f-b9dc-489ca93df474")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dac654e1-e4be-4e49-a2e8-439fed3fe5f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.7)
+		(end 1.7 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2a508d59-a012-4b49-9982-8b4e470cb08f")
+	)
+	(fp_line
+		(start -1.7 -1.4)
+		(end -1.7 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d8a6b749-cdf8-4ddf-99ee-1bafab1d78cd")
+	)
+	(fp_line
+		(start -1.7 1.4)
+		(end -1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5313c788-7555-4500-b4af-5eb061699b29")
+	)
+	(fp_line
+		(start -1.7 1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5506b32-0d06-4ce4-a651-9d00be085eb4")
+	)
+	(fp_line
+		(start 1.7 -1.7)
+		(end 1.7 -1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b166b77c-6654-4636-b016-ea117b168ab9")
+	)
+	(fp_line
+		(start 1.7 1.7)
+		(end 1.7 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b82a2e95-19ea-400c-a46d-77119c84e38e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.9) (xy -0.5 -1.2) (xy -0.2 -1.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e71f9eb3-3ee9-4dbc-bfc2-22a0138736db")
+	)
+	(fp_rect
+		(start -1.6 -1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2318bd8a-e011-4a11-b964-1f056ca1276f")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "765f011f-143f-44db-9e7f-8ce32896acab")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.9) (xy -0.5 -1.2) (xy -0.2 -1.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "745867b6-5c89-4466-a63d-51696a61e774")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5bf28d8-8a80-4113-aaea-5439ea679532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 -1)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "690fa992-4204-483e-a34e-f0a12c895ba0")
+	)
+	(pad "2" smd rect
+		(at -1.2 0)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d903c4fc-c469-4922-8a5f-e9074086a60a")
+	)
+	(pad "3" smd rect
+		(at -1.2 1)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "66d19cf9-30de-4eac-8e53-63de96b41374")
+	)
+	(pad "4" smd rect
+		(at 1.2 1)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b7ddb2a6-9cec-4d77-82e5-fe333e1fc230")
+	)
+	(pad "5" smd rect
+		(at 1.2 0)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4ca26a4c-b1b6-47b2-8ba9-fd074433532a")
+	)
+	(pad "6" smd rect
+		(at 1.2 -1)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8a6b1c9c-d6ec-4e85-a0a2-ae7e56646108")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/AHT20_Sensor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

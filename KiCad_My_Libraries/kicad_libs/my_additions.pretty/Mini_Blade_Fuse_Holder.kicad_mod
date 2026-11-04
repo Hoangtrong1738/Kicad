@@ -1,0 +1,146 @@
+(footprint "Mini_Blade_Fuse_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mini blade fuse holder")
+	(tags "fuse, holder, mini, automotive, auto")
+	(property "Reference" "REF**"
+		(at -7.7 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "17b3d72d-aa02-4ade-925d-2e0ef0b78959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Mini_Blade_Fuse_Holder"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67d63c0b-fa7b-4a64-a1c6-e1f175a626bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52ae03ad-a539-41be-be1d-041397a9232d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b382f6ed-fe22-4bd4-b84a-eebf02e06145")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.5 -2.85)
+		(end 7.5 2.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8681f8ed-0b19-4962-866d-dcdb1e3638f9")
+	)
+	(fp_rect
+		(start -7.4 -2.75)
+		(end 7.4 2.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e299f74a-cc04-4804-a766-9e45b2b4142c")
+	)
+	(fp_rect
+		(start -7.3 -2.65)
+		(end 7.3 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc004ba5-8051-4050-83b7-48fe39f0d72d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92e4ef00-add5-4014-831a-95b5a0882188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5.85 0)
+		(size 1.7 3.4)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f085ede4-adbf-4633-8c02-7729c33eaf29")
+	)
+	(pad "1" thru_hole oval
+		(at -2.15 0)
+		(size 1.7 3.4)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0b7a3b3-7c2c-45f9-a4fe-57a6e07d3b31")
+	)
+	(pad "2" thru_hole oval
+		(at 2.15 0)
+		(size 1.7 3.4)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49be6fd9-6aac-4baf-8d0d-0469796c59c0")
+	)
+	(pad "2" thru_hole oval
+		(at 5.85 0)
+		(size 1.7 3.4)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b431d4a4-f2af-446d-a417-8fa050c87306")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Mini_Blade_Fuse_Holder.step"
+		(offset
+			(xyz 0 -2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

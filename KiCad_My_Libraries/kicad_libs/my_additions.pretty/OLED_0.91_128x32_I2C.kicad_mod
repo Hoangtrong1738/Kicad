@@ -1,0 +1,144 @@
+(footprint "OLED_0.91_128x32_I2C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OLED 0.91\" 128x32 display module")
+	(tags "OLED, 0.91, 128x32, display, i2c")
+	(property "Reference" "REF**"
+		(at -1.6 -10.8 0)
+		(layer "F.SilkS")
+		(uuid "6afaebde-2de0-4c81-a8d8-7c2518077fa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "OLED_0.91_128x32_I2C"
+		(at 17.7 -3 0)
+		(layer "F.Fab")
+		(uuid "1babfbe5-1546-40ea-81f3-bb278f8fb6e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3423f702-b897-4c12-a6d0-c0935d428ff1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "OLED 0.91\" 128x32 display module"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc7f8012-c540-47d1-944b-95ab65bcf253")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.4 -9.9)
+		(end 36.8 2.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4b3c2b39-09f8-4921-822e-7ab892dd1ed5")
+	)
+	(fp_rect
+		(start -1.27 -8.89)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2c306ca-ede4-448d-93d3-f8ec46de4856")
+	)
+	(fp_rect
+		(start -1.27 -9.81)
+		(end 36.73 2.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aab2272b-5fad-4e65-89ca-e56b4f4898cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 18.1 -4.7 180)
+		(layer "F.Fab")
+		(uuid "d7924605-abcd-40b2-a276-9cdb1f9072a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d705513e-0032-443d-b5ce-461b9eb9e3c6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bbe9844-0115-49c9-b78d-684093009f34")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e67f2d8b-f639-40ae-929b-e4d40f4bb884")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbbdaddb-26d6-47d5-8add-cdf42a889102")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/OLED_0.91_128x32_I2C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

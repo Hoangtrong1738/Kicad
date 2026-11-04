@@ -1,0 +1,5 @@
+{
+"description": "DC-DC step-up converter to 5V / 2A based on MT3608",
+"keywords": "dc-dc, step-up, stepup, boost",
+"fields": {}
+}

@@ -1,0 +1,257 @@
+(footprint "KF55C-10.0-03P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Barrier Terminal Block 300V/30A")
+	(tags "screw terminal block")
+	(property "Reference" "REF**"
+		(at -6.7 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "033f0bcb-3ea7-408e-8721-cb2f01bdb32d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "KF55C-10.0-03P"
+		(at 5 -8.6 0)
+		(layer "F.Fab")
+		(uuid "82cff7f3-1a44-4686-9013-e08aa92885a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jirorwxhqiillo5p.ldycdn.com/KF55C-10.0-aidqkBpqKirRljSrlipiklli.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a875c5f9-0bac-4114-8c57-9d12b0088a22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Barrier Terminal Block 300V/30A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ac6bc0c-f750-4146-a2cb-a703ba90ab4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.4 -7.8)
+		(end 26.4 7.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb29af85-b835-4917-ae92-be28213430d6")
+	)
+	(fp_rect
+		(start -6.25 -7.65)
+		(end 26.25 7.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "44404a39-6522-4936-9995-af5d2eb7aefe")
+	)
+	(fp_rect
+		(start -6.2 -7.6)
+		(end -5.2 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "29ee205c-0e9a-4151-a1f4-e9a73d7777d0")
+	)
+	(fp_rect
+		(start -6.2 -7.6)
+		(end 26.2 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9c7e226c-393b-49ce-8bc9-391da305929b")
+	)
+	(fp_rect
+		(start 4.5 -7.6)
+		(end 5.5 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "fe480535-eed6-4f6a-979f-a43b96e9728a")
+	)
+	(fp_rect
+		(start 14.5 -7.6)
+		(end 15.5 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "36f5b727-4695-4b97-a94d-73a77c46d12f")
+	)
+	(fp_rect
+		(start 25.2 -7.6)
+		(end 26.2 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "39d86f38-a413-4e43-b8f2-ad231291cfd7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "916c54e5-dc64-4eac-b75e-a3ea9ea0db70")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29cf3c1a-068f-4105-9089-dccd702c29b7")
+	)
+	(fp_circle
+		(center 20 0)
+		(end 23 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "653f6d94-e2ea-486f-849d-b532555e8427")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1 -0.4) (xy -0.4 -0.4) (xy -0.4 -2.1) (xy 0.4 -2.1) (xy 0.4 -0.4) (xy 2.1 -0.4) (xy 2.1 0.4)
+			(xy 0.4 0.4) (xy 0.4 2.1) (xy -0.4 2.1) (xy -0.4 0.4) (xy -2.1 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c11143d-aece-40dd-bcf7-95ca5afdc1c8")
+	)
+	(fp_poly
+		(pts
+			(xy 7.9 -0.4) (xy 9.6 -0.4) (xy 9.6 -2.1) (xy 10.4 -2.1) (xy 10.4 -0.4) (xy 12.1 -0.4) (xy 12.1 0.4)
+			(xy 10.4 0.4) (xy 10.4 2.1) (xy 9.6 2.1) (xy 9.6 0.4) (xy 7.9 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5671e074-e21d-4687-a997-bc86d704aee3")
+	)
+	(fp_poly
+		(pts
+			(xy 17.9 -0.4) (xy 19.6 -0.4) (xy 19.6 -2.1) (xy 20.4 -2.1) (xy 20.4 -0.4) (xy 22.1 -0.4) (xy 22.1 0.4)
+			(xy 20.4 0.4) (xy 20.4 2.1) (xy 19.6 2.1) (xy 19.6 0.4) (xy 17.9 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ab4f125-c8aa-489a-a178-a424a24e648e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 -10.1 0)
+		(layer "F.Fab")
+		(uuid "66592ce1-2620-4991-b410-505e7ae86874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 4 8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "9e262e8f-2abf-40ce-babd-f7e272ee47d9")
+	)
+	(pad "2" thru_hole oval
+		(at 10 0)
+		(size 4 8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "00d1c10a-43f8-4bef-a7fc-aeba8e5cc206")
+	)
+	(pad "3" thru_hole oval
+		(at 20 0)
+		(size 4 8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "9e7ce384-b657-4c1d-82c9-4a42f2fa39d5")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/KF55C-10.0-03P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

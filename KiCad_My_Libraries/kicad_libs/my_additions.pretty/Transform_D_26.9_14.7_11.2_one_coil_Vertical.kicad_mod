@@ -1,0 +1,130 @@
+(footprint "Transform_D_26.9_14.7_11.2_one_coil_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Transformer on a toroidal core D26.9/14.7/11.2 one coil Horizontal")
+	(tags "transformer, toroidal")
+	(property "Reference" "REF**"
+		(at -6.2 -14.8 0)
+		(layer "F.SilkS")
+		(uuid "24e67e86-dfbe-4e5c-bc34-e48aa0ad80ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Transform_D_26.9_14.7_11.2_one_coil_Vertical"
+		(at 9.2 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a66e89f7-244a-48df-a0ce-c24530f40c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d83ae5-281c-4de7-87c9-b9b39d0463c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a91b6d-c678-4ac5-a918-7c9f69cfcf33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 -14)
+		(end 6 14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4e02985-a11f-4204-a228-21e8b0323156")
+	)
+	(fp_rect
+		(start -8 -16)
+		(end 8 16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "14a13a5a-ce3b-4a97-b60f-bfee70bd89d2")
+	)
+	(fp_rect
+		(start -5.9 -13.9)
+		(end 5.9 13.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb7b235d-8632-48e3-a667-04d1bcb49d04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a022eb6-748d-44d9-9d78-1f97a1218823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -8.2 -2.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b089a06-6942-4750-9e58-c020a7366b9d")
+	)
+	(pad "2" thru_hole circle
+		(at -8.2 2.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b70d2c14-8515-4d01-84e7-2f05b819a57a")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Tor_core_D_26.9_14.7_11.2.step"
+		(offset
+			(xyz 5.5 0 15.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+)

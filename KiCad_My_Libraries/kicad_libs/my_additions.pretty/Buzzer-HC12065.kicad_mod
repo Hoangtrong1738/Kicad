@@ -1,0 +1,160 @@
+(footprint "Buzzer-HC12065"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buzzer, Elektromagnetic Beeper, Summer,")
+	(tags "buzzer, beeper, HC12065")
+	(property "Reference" "REF**"
+		(at 0 -7.1 0)
+		(layer "F.SilkS")
+		(uuid "3fce2839-e576-4a7b-b2e7-e919865f9536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HC12065"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "302ea18c-5cfd-4c9a-a42d-88d742855770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13e4d700-6bb0-4b03-9303-52a8dd760a68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3598986-0524-484a-9289-37619220475e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be050cbe-13f5-4c09-9af9-b39d02590d28")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "698173be-7376-4703-97c1-ff7ab6a6f2d9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "58d8d2cd-d57f-4653-8b16-8af048f5e69c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "41a87d12-abdc-49d5-83d7-70f4a76e6240")
+	)
+	(fp_text user "+"
+		(at -1.5 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "9f6fd021-af6c-4053-ad1d-3e367deb9249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(uuid "80a0e8dd-e3b1-48d1-abcf-9c8e192f63a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.5 -1.6 0)
+		(layer "F.Fab")
+		(uuid "deaf7cc5-9d17-4cd0-a7d5-a53096c8590c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.25 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d967ec6-88bd-4210-b548-56976a879379")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6fb77c0-881f-4fb9-977a-c59417919be6")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Buzzer-HC12065.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,178 @@
+(footprint "L_06030"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Inductor MHCC, MHCI series")
+	(tags "MHCC, MHCI, 06030, inductor")
+	(property "Reference" "REF**"
+		(at -3.6 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c0559723-9555-4b9d-a8d2-c70b846cceb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "L_06030"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "9c2df3ed-6ee0-4c63-bae8-dc47f158c257")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a146d4e4-bd9f-4486-bc09-3d8275f280ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b8f6d3-48d5-48bd-a3d8-dad7dcf51fcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -3.4)
+		(end 3.4 -3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2277db75-11c1-4f93-ba35-3b1eef471ddc")
+	)
+	(fp_line
+		(start -3.4 -1.9)
+		(end -3.4 -3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2047b62d-622c-4039-a7f5-69aeb18c1291")
+	)
+	(fp_line
+		(start -3.4 3.4)
+		(end -3.4 1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eccb3f3c-8591-4dc6-8312-0b5064651959")
+	)
+	(fp_line
+		(start 3.4 -3.4)
+		(end 3.4 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ecf9cc0-f5ec-4557-a34b-231a46378fa6")
+	)
+	(fp_line
+		(start 3.4 1.9)
+		(end 3.4 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16fafd3e-de93-450b-bb4d-a8c0c1aed308")
+	)
+	(fp_line
+		(start 3.4 3.4)
+		(end -3.4 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8bf55bd7-0619-4229-9c6a-299b4cf67c5a")
+	)
+	(fp_rect
+		(start -3.65 -3.4)
+		(end 3.65 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3308254-13ce-4ad7-b4ef-907eee241aed")
+	)
+	(fp_rect
+		(start -3.3 -3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4c791bf4-87a3-4575-8916-977e7f088611")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "33e7d3ef-bc39-44d0-8ec0-a3d5a0d5bae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.175 0)
+		(size 2.5 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "aa6f421b-e071-4fab-8009-263670a732c1")
+	)
+	(pad "2" smd roundrect
+		(at 3.175 0)
+		(size 2.5 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "976f077d-fdcb-4455-af10-d43bc761dc04")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Inductor_SMD_AMPLF_0630.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

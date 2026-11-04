@@ -1,0 +1,129 @@
+(footprint "R_SQP_5W_AXIAL_L22.0_W9.5_H9.5_P1000mil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "5W Ceramic boxed resistor")
+	(property "Reference" "REF**"
+		(at -11.4 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "a2b743c5-6a7c-421f-b4fb-b5317db03f5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "R_SQP_5W_AXIAL"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(uuid "20194f47-18f7-47e4-97bf-38905a560097")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b92442c2-4c65-48be-946e-e2bee969b098")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22fff5ff-f077-4d00-bc9a-3217c897e745")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.1 -4.9)
+		(end 11.1 4.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "68b64511-76ee-4a9e-91c9-af94f12ad1cb")
+	)
+	(fp_rect
+		(start -11 -4.75)
+		(end 11 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d2aeec72-b360-4b12-b901-f746760fe35b")
+	)
+	(fp_rect
+		(start -10.9 -4.7)
+		(end 10.9 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6d118d4-e498-4cfb-b498-cc939a9bbdcb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.7 0)
+		(layer "F.Fab")
+		(uuid "d3851413-bd4e-4711-ab08-c7265d47f387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12.7 0)
+		(size 2.8 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbca26bc-3d5d-4a1d-a187-36ab782af4a5")
+	)
+	(pad "2" thru_hole circle
+		(at 12.7 0)
+		(size 2.8 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8730f972-bdc0-44fa-bf40-fc3b26e30086")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/RES_SQPH_5W_1000mil_0R_J(5%).STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

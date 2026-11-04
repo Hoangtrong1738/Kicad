@@ -1,0 +1,162 @@
+(footprint "Transform_D_26.9_14.7_11.2_one_coil_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Transformer on a toroidal core D26.9/14.7/11.2 one coil Horizontal")
+	(tags "transformer, toroidal")
+	(property "Reference" "REF**"
+		(at 0 -14.6 0)
+		(layer "F.SilkS")
+		(uuid "24e67e86-dfbe-4e5c-bc34-e48aa0ad80ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transform_D_26.9_14.7_11.2_one_coil_Horizontal"
+		(at 0 14.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a66e89f7-244a-48df-a0ce-c24530f40c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b064a5-7a87-4c52-b062-c7c9cd09ce3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "647afb9c-e7d6-4340-a24a-d415ff8ce75d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 7.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72ef4589-73c4-44db-949c-459a3155b2dc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.8 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03c6b427-63d8-418c-846e-0fb8110d697f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "74dad465-2d4d-4ed0-9ad6-6b34daae5202")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48d439df-53d9-438f-8f6a-044d29c7dcee")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b9d5e82d-3e74-42c3-9ef6-2e7b041ba3b7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b6897c7-45f1-4a37-91ad-543d12d0cc1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a022eb6-748d-44d9-9d78-1f97a1218823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.2 -2.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b089a06-6942-4750-9e58-c020a7366b9d")
+	)
+	(pad "2" thru_hole circle
+		(at -4.2 2.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b70d2c14-8515-4d01-84e7-2f05b819a57a")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Tor_core_D_26.9_14.7_11.2.step"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

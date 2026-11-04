@@ -1,0 +1,128 @@
+(footprint "Conn_KF7620-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 -6.1 0)
+		(layer "F.SilkS")
+		(uuid "5ae8401a-31af-4784-b5fd-594119595c2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "KF7620-7.62-2P"
+		(at 3.8 3.4 0)
+		(layer "F.Fab")
+		(uuid "6d8f9c46-2eee-4644-8ffa-4189a57786f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef27b932-19fc-48a9-ae55-3b0ef9ee7bd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e93d8a5-d03a-42b0-943c-83dc038a49af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -5.4)
+		(end 11.43 7.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9da78988-ebc8-49ca-8d3e-e943e40030a7")
+	)
+	(fp_rect
+		(start -3.81 -5.4)
+		(end 11.43 7.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "66e82b84-8f9e-4f6d-8274-6224684b05dd")
+	)
+	(fp_rect
+		(start -3.81 -5.4)
+		(end 11.43 7.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "13e332e6-998c-4255-8e34-b568ecbe1c84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 4.9 0)
+		(layer "F.Fab")
+		(uuid "f01e5699-d219-41a6-a434-d9eea7f11373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 3.4 5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99a42cb5-a30d-46e1-9839-ee24813fbd3f")
+	)
+	(pad "2" thru_hole oval
+		(at 7.62 0)
+		(size 3.4 5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b42083d-5643-49d0-a71d-a6454355288f")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/KF762-2p.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

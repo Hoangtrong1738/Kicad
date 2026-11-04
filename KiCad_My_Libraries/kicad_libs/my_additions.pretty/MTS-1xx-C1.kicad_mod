@@ -1,0 +1,127 @@
+(footprint "MTS-1xx-C1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Toggle switch")
+	(tags "toggle switch")
+	(property "Reference" "REF**"
+		(at -4.3 -7.4 0)
+		(layer "F.SilkS")
+		(uuid "b8b4abe6-8bca-4537-9804-b0fec39e9e46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "MTS-1xx-C1"
+		(at 0.7 0 90)
+		(layer "F.Fab")
+		(uuid "c0f40cbf-356a-4b5f-b5ea-0a22ab4cc790")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32a48f70-3e71-43de-b512-8de534a2f1da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1229ec5-1dd4-46b4-9d21-a93b1a862694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.1 -6.7)
+		(end 4.1 6.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5040169f-8521-4189-bab3-c3ea19cf2eab")
+	)
+	(fp_rect
+		(start -3.95 -6.6)
+		(end 3.95 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bc5a8a27-74d5-4e26-ae4e-c6181afdcc07")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.8 0 90)
+		(layer "F.Fab")
+		(uuid "df08e9b9-44f7-4095-aea5-363e18ceab75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -4.7)
+		(size 4 2)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52854831-2c47-4ed0-aaf0-e9344036db4f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 4 2)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aff0034d-3b19-4327-bd75-1731124f2278")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4.7)
+		(size 4 2)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bc9e601-7636-4c67-8c48-86989b5e7f5f")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/MTS-1xx-C1-red.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

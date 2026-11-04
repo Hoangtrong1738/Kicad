@@ -1,0 +1,183 @@
+(footprint "Shunt_L20_H17_D2.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire shunt 20mm length, 17mm height, 2.5mm thick")
+	(tags "shunt")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1d3296f-7acf-49aa-a23d-a76559c69e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Shunt_L20_H17_D2.5"
+		(at -0.2 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e538c55a-66d5-4add-b4fc-b94f6aa46308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3adc149d-78e0-414e-865f-d6407a846a7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c276652d-f210-41cc-88b4-23eae4a7185c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.8 0)
+		(end 6.8 0)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "84dbe2bd-4e7e-4182-8835-c0086b1a83c0")
+	)
+	(fp_circle
+		(center -10 0)
+		(end -6.8 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0b3f2900-fcd8-45d6-a79c-78e433095a4d")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 13.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "55938bf3-b27a-4815-a606-7dd477ded6ed")
+	)
+	(fp_circle
+		(center -10 0)
+		(end -6.5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "21b9fcc7-b954-4721-9b05-333cb0b9b3b2")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 13.5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c811444e-afb8-4353-8a6f-f24b50b4372b")
+	)
+	(fp_line
+		(start -7 0)
+		(end 7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "72b4731d-03a5-4492-9639-42b625a21a95")
+	)
+	(fp_circle
+		(center -10 0)
+		(end -7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74cea6f2-9eec-4826-9dca-b3520e8dbcbb")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf58b722-d150-4289-9f9a-e291bcc93b6b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4285611e-75a0-42ef-bdd9-b8c6b3a5ea8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10 0)
+		(size 5.7 5.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "642bda1a-f6a1-4c89-922d-3ddfc3c41273")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 5.7 5.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab3a64fc-8f76-4f18-a2c5-3a36e5680383")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Shunt_L20_H17_D2.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

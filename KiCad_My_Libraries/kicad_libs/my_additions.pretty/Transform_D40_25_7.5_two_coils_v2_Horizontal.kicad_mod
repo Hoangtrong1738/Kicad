@@ -1,0 +1,183 @@
+(footprint "Transform_D40_25_7.5_two_coils_v2_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Transformer on a toroidal core D40/25/7.5 two coils Horizontal")
+	(tags "transformer, toroidal")
+	(property "Reference" "REF**"
+		(at 0 -21.2 0)
+		(layer "F.SilkS")
+		(uuid "e49933cc-3b8a-494d-a909-c1a3e4dd8f32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transform_D40_25_7.5_two_coils_v2_Horizontal"
+		(at -0.1 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47de6b45-9ab8-4413-a75f-038cd66d5f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0d51a90-c808-47bd-b611-a8e575f62f3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af675510-d39f-435f-b36d-d3eb459207d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 12.3 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b15cd7e4-6853-46b0-8313-65fa30b5a618")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 20.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4b5c2a27-53fd-430b-958d-a4adef589174")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 23.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "78c0f002-5416-40d2-a4aa-67129b82cfb7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 12.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8029da0e-41c0-483e-9055-3c15d0577bfb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9f164ee6-8fae-48fc-9656-0f1a3a72f669")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27aa2411-e45e-4fe0-9cc1-28eabc7387e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6 -3.5)
+		(size 4.6 4.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4272bc9-1703-4cc0-80cf-e8f60d75d254")
+	)
+	(pad "2" thru_hole circle
+		(at -18 -15)
+		(size 5.6 5.6)
+		(drill 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "638e581d-8031-4527-9d81-182aeef4238e")
+	)
+	(pad "3" thru_hole circle
+		(at 6 -3.5)
+		(size 4.6 4.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b11602a0-e568-4e0e-932a-0de04f1981f9")
+	)
+	(pad "4" thru_hole circle
+		(at 6 3.5)
+		(size 4.1 4.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9108472-86d7-4499-813d-95d6a5e19492")
+	)
+	(pad "5" thru_hole circle
+		(at 18 -15)
+		(size 4.6 4.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a252f1c-4338-4c20-9969-05d06148e8ae")
+	)
+	(pad "6" thru_hole circle
+		(at -6 3.5)
+		(size 4.1 4.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23af53e9-21a9-40a2-b74d-060dca4ccea2")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Tor_core_Ferrite_D_40_25_7.5_no_coil.step"
+		(offset
+			(xyz 0 0 3.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,293 @@
+(footprint "Magnetic_pogo_5pin_2..54mm_RA_female_combo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5-pin magnetic Female Pogo connector")
+	(tags "pogo, connector, 5pin")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dfba582d-3a61-45e7-86af-f7f4ae3cea36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Magnetic_pogo_5pin_2..54mm_RA_female_combo"
+		(at 0 7.45 0)
+		(layer "F.Fab")
+		(uuid "81f27e0c-95b8-4e43-a828-fbebef40600e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://aliexpress.ru/item/1005006125313623.html?sku_id=12000035866966087"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98c6129d-ce44-4aea-8e3d-801173a8c0d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5-pin magnetic Female Pogo connector"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8526fe8b-e2bc-427d-af4a-0391c3caccee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.04 1.4)
+		(end 10.04 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "7d9dcbf2-d826-43a7-b5e2-debd6d97b4aa")
+	)
+	(fp_rect
+		(start -10.16 -1.27)
+		(end 10.16 5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a1c32849-a8e1-436e-8676-c07f97ff0e3c")
+	)
+	(fp_line
+		(start -10.04 1.4)
+		(end -10.04 5.08)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "af63a79b-ef92-45ff-b800-29227b2bd04f")
+	)
+	(fp_line
+		(start -10.04 1.4)
+		(end 10.04 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d9df6ab-6938-4b7a-a042-5aae9bb3b09f")
+	)
+	(fp_line
+		(start 10.04 1.4)
+		(end 10.04 5.08)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a3327a92-6b69-4526-a44f-db26277f3085")
+	)
+	(fp_line
+		(start 10.04 5.08)
+		(end -10.04 5.08)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1e79c3a5-2ad8-4c60-b398-d38d0908ca22")
+	)
+	(fp_rect
+		(start -5.715 4.445)
+		(end -4.445 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "719bd44e-f378-4504-b545-5ee2d390aa59")
+	)
+	(fp_rect
+		(start -3.175 4.445)
+		(end -1.905 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b84d4bfe-46ba-4948-82c7-ce28ade38127")
+	)
+	(fp_rect
+		(start -0.635 4.445)
+		(end 0.635 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4c888ef0-68b6-45e1-8542-6c916f29880c")
+	)
+	(fp_rect
+		(start 1.905 4.445)
+		(end 3.175 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3b745461-3dd5-434c-9b38-e0f1666b40d2")
+	)
+	(fp_rect
+		(start 4.445 4.445)
+		(end 5.715 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "74fdd0f6-05c8-4e87-95cb-87b84ac8f70b")
+	)
+	(fp_text user "PCB edge"
+		(at 10.112212 1.392217 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "158f9e22-35e4-4312-943a-4a5fba0e6991")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.8 0)
+		(layer "F.Fab")
+		(uuid "410d61d7-50b5-4d38-8d79-d6e5a1f0509f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "189ace4b-de28-4fe5-9e3b-5e091a3582dc")
+	)
+	(pad "1" smd rect
+		(at 5.08 0.475)
+		(size 1 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55c11019-b1c0-4905-9a49-06626464599a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c16323e-8660-4e73-98f6-275e59b0dc7f")
+	)
+	(pad "2" smd rect
+		(at 2.54 0.475)
+		(size 1 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad3de1f7-1e01-42da-b895-7ac01b809a31")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e10e4ac6-13b2-42ab-9403-37666cd356ce")
+	)
+	(pad "3" smd rect
+		(at 0 0.475)
+		(size 1 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8743ee73-7208-45dc-b109-76ba1cbec15c")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "347e514e-d7da-402a-bf20-2a3daa9075ce")
+	)
+	(pad "4" smd rect
+		(at -2.54 0.475)
+		(size 1 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f6b3337-ffec-46de-8b7e-05dde86ceb19")
+	)
+	(pad "5" thru_hole circle
+		(at -5.08 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f64a8be-1d6e-4a95-b456-847b01dccbb5")
+	)
+	(pad "5" smd rect
+		(at -5.08 0.475)
+		(size 1 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "576b7ff5-acfc-46a6-8dfb-b594bee1411a")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/MagneticPogoFemale-5pin.step"
+		(offset
+			(xyz 0 -1.4 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${MY_ADDITIONS}/MagneticPogoFemaleRA-5pin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 0)
+		)
+	)
+)

@@ -1,0 +1,230 @@
+(footprint "MP503_sensor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MP503 Air-Quality Gas Sensor")
+	(tags "MP503 gas sensor")
+	(property "Reference" "REF**"
+		(at 0 -5.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93633f31-f8d8-4b9e-adb9-2848beaa35bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MP503"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "597a0c61-c0a0-4f3e-b491-08c29f0b0b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.3 -13.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f475ca04-8405-4498-8267-9932a099b187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.3 -13.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6858825a-5eca-43ed-83b2-ec7de39e949b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.5 5.6)
+		(end -0.5 4.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e869131-4161-49eb-9266-177c70121454")
+	)
+	(fp_line
+		(start -0.5 5.6)
+		(end 0.5 5.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "54e1516a-e920-45b3-b253-e3210588fc57")
+	)
+	(fp_line
+		(start 0.5 5.6)
+		(end 0.5 4.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5290625e-c68d-416c-8f9e-c05ed44ee048")
+	)
+	(fp_arc
+		(start -0.5 4.8)
+		(mid 0 -4.825971)
+		(end 0.5 4.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9a91a72-1a78-4236-a273-8f6fce83101c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab76d602-900f-4c04-8f41-55926bb957d7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 5.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0b96cc2e-db44-4270-88ee-0a7d088ec566")
+	)
+	(fp_line
+		(start -0.4 5.5)
+		(end -0.4 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "11951562-6c89-4071-ac88-6f1c51d059a2")
+	)
+	(fp_line
+		(start -0.4 5.5)
+		(end 0.4 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "11402aa4-f59f-4ab7-b077-9880942fda0f")
+	)
+	(fp_line
+		(start 0.4 5.5)
+		(end 0.4 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "96e454ac-e902-4183-a156-ab2a5816a066")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1cc512f6-434d-4df5-a222-56ab7676ed25")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "70b697b6-4b6b-460a-9f2c-39b8e1d7d3ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36175f66-9552-496a-8437-25265323cf4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.55 1.55)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60137053-b2e3-4e33-bc7d-b85140d78697")
+	)
+	(pad "2" thru_hole circle
+		(at 1.55 1.55)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ead7b6ae-1b81-4111-99f0-683610c08be9")
+	)
+	(pad "3" thru_hole circle
+		(at -1.55 -1.55)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef5ca874-44fe-40de-8df0-063788766b43")
+	)
+	(pad "4" thru_hole circle
+		(at 1.55 -1.55)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a548c30b-747a-4375-849c-145919715788")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/MP503_sensor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

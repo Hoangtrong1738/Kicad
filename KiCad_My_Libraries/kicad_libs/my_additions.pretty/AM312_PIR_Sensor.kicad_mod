@@ -1,0 +1,262 @@
+(footprint "AM312_PIR_Sensor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AM312 PIR Sensor")
+	(tags "sensor, pir, am312")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b9ba1ac-7629-44f7-8dd4-db453a360d1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AM312"
+		(at 0 6.477 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3154ed1e-f87c-4582-bd19-301da5a0e16b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5809c5eb-954c-48a1-9355-543ccf1d53e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2209ca-3714-40d0-a1a7-0d8f218266d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.589796 -0.445363)
+		(end -0.44419 -1.590124)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf31312-2db2-4287-b1ea-662cb7921390")
+	)
+	(fp_line
+		(start -0.44419 -1.590124)
+		(end 1.590383 0.443264)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "57555391-5f46-408a-b82d-ff364595afdf")
+	)
+	(fp_line
+		(start 0.445615 1.589726)
+		(end -1.589796 -0.445363)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2aa4d46-da95-468a-899e-543685147cff")
+	)
+	(fp_line
+		(start 1.590383 0.443264)
+		(end 0.445615 1.589726)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f8fa62b-556b-482c-ae27-8adc774b8bda")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.65 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9daf1811-2942-4e69-a082-b5d1fa0a5f45")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.35 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fcd28859-a585-49a5-9c56-d1a41397c2e7")
+	)
+	(fp_poly
+		(pts
+			(xy -3.52845 -3.02862) (xy -3.022304 -3.533861) (xy -3.519935 -4.028964) (xy -4.025709 -3.523658)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "37a55a09-82b5-4c48-bbfb-4c414feded95")
+	)
+	(fp_line
+		(start -3.937 -3.429)
+		(end -3.459595 -2.955284)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2f1ad63a-3ef2-42c5-8b1b-4a97e99af0c8")
+	)
+	(fp_line
+		(start -3.429 -3.937)
+		(end -3.937 -3.429)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6a191104-70ab-49c2-b661-9de8887604ef")
+	)
+	(fp_line
+		(start -3.303847 -0.504576)
+		(end -0.498999 -3.304694)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "343c4e7b-1e76-430d-8a56-7e96d5f6fc22")
+	)
+	(fp_line
+		(start -2.954929 -3.459898)
+		(end -3.429 -3.937)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "52e646d5-480f-4fba-bb64-cfa5ccc94f9f")
+	)
+	(fp_line
+		(start -0.498999 -3.304694)
+		(end 3.304108 0.50286)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bd284da0-d312-4b79-a547-a89eb4e52187")
+	)
+	(fp_line
+		(start 0.507865 3.303343)
+		(end -3.303847 -0.504576)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "178e4744-8617-4e25-88c0-350ba929589f")
+	)
+	(fp_line
+		(start 3.304108 0.50286)
+		(end 0.507865 3.303343)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "66d54134-944b-4217-9483-ecd43d62fc39")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b8bd1f7e-6056-4ef7-944c-9a9052f708b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.977 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f861b034-3355-4768-89b0-2b82d8248fa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7fc2676-048b-4059-b68a-e168ee866715")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d719bc95-c485-4a8f-8ecd-7df09002b8c1")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a2d3549-1c29-401a-bf8e-99dd9446883e")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/AM312_PIR_sensor.step"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

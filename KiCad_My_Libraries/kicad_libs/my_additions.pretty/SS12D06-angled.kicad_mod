@@ -1,0 +1,243 @@
+(footprint "SS12D06-angled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SS12D06 slide switch")
+	(tags "SS12D06, switch")
+	(property "Reference" "REF**"
+		(at -1.1 11.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "029b5aac-97d9-43aa-8b60-f3d075c83487")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "SS12D06-angled"
+		(at 0 6.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6177f6bf-9e37-44a3-8c57-fe93e5fb0a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f62c767c-1c43-43dd-810a-0fac175a6d64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "869b42bd-a7fe-40d8-ae25-b31b5b8adad5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 4)
+		(end 6.5 10.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b1d74bc-a88f-46ea-8cdd-b9f08b9bd1fb")
+	)
+	(fp_rect
+		(start -5 1.6)
+		(end -4.6 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5129161c-6212-4f15-8d2c-c8e39b733cf3")
+	)
+	(fp_rect
+		(start -0.8 10.7)
+		(end 3.1 14.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dd8956fe-0518-4e58-b40c-bee6af74b4d8")
+	)
+	(fp_rect
+		(start -0.2 1.6)
+		(end 0.2 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9e44b14b-2508-4f94-9f7c-dde4d4b6ff3a")
+	)
+	(fp_rect
+		(start 4.6 1.6)
+		(end 5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b16e7f77-f292-4dc0-aafd-890c5461a4f9")
+	)
+	(fp_rect
+		(start 6.4 14.5)
+		(end -6.4 -1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fe3e08ed-f1d1-4441-8bc4-b6c90840e0c5")
+	)
+	(fp_line
+		(start -4.8 1.6)
+		(end -4.8 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8237efa5-7b6b-46bd-9651-6b33b8cf74f0")
+	)
+	(fp_line
+		(start -0.85 14.45)
+		(end -0.85 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0c8b3af4-f74c-4422-ac07-4907fe7839b5")
+	)
+	(fp_line
+		(start 0 4.15)
+		(end 0 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f1ba4607-d5e7-45bc-a7bd-2129d506fc79")
+	)
+	(fp_line
+		(start 3.05 10.6)
+		(end 3.05 14.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6ba47fe4-3310-4a75-9dea-db568ceb0221")
+	)
+	(fp_line
+		(start 3.05 14.45)
+		(end -0.85 14.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "493e3605-91bd-453d-b8c5-bc78abfd5dd0")
+	)
+	(fp_line
+		(start 4.8 4.1)
+		(end 4.8 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0a35a573-b477-46a6-a942-a7723e08008c")
+	)
+	(fp_rect
+		(start -6.35 4.15)
+		(end 6.35 10.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5a0425ee-18cb-43cd-b7ec-f6576d4e5089")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7ba574e-ee22-433a-8ecc-8f807d842161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.8 0)
+		(size 2.2 2.8)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73fa4242-df59-4719-ae5e-bdf9f1c717d1")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2.2 2.8)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65126f89-a644-4b7e-a14a-6e8c0aabc841")
+	)
+	(pad "3" thru_hole oval
+		(at 4.8 0)
+		(size 2.2 2.8)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25a6620e-9d91-4ef0-824e-fd524f3f9283")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/SS12D06.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

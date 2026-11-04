@@ -1,0 +1,145 @@
+(footprint "Cherry_MX__no_pins"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cherry MX mechanical switch")
+	(tags "cherry MX mechanical switch")
+	(property "Reference" "REF**"
+		(at 0 -7.8 0)
+		(layer "F.SilkS")
+		(uuid "0839d5ba-9bca-45a5-8d67-30596555217a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cherry_MX__no_pins"
+		(at 0 5.8 0)
+		(layer "F.Fab")
+		(uuid "2be6c60c-3ba7-46f2-ac47-20d9d48be69d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76bb40e6-57da-4b61-bf68-5425221e17ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e8bb46a-3a94-4610-b5d9-a5c49170460f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.1 -7.1)
+		(end 7.1 7.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aa8af213-21ab-4ec2-b70a-a143ea8d7cb8")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2c7e5ed8-2a3a-4678-b9ab-9f88df9e9e40")
+	)
+	(fp_rect
+		(start -7.1 -7.1)
+		(end 7.1 7.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fddde8ca-8467-498a-aa09-5074d5e36b73")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2c87b15d-ad28-45da-8122-d486912f2dfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 4.2 0)
+		(layer "F.Fab")
+		(uuid "36665e41-9bcb-4b61-a20b-b76ccfed3353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7818c84c-c76e-475b-8fdc-a5a133581fc9")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a5f26d6-0316-4cb9-998a-2e9eb042ce1b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2de927a0-0ffe-4308-a07b-8c8db7e47c91")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/cherry_mx_blue_PLATE.step"
+		(offset
+			(xyz 0.3 0.3 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 90)
+		)
+	)
+)

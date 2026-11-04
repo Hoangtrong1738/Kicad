@@ -1,0 +1,237 @@
+(footprint "Potentiometer_Dial_Gear_3p"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Dial Gear Potentiometer 3pin")
+	(tags "pot, potentiometer, dial, radial")
+	(property "Reference" "REF**"
+		(at -5.2 9.2 0)
+		(layer "F.SilkS")
+		(uuid "a013c322-e502-4028-b0cd-ecece81ec41a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Dial Gear Potentiometer 3pin"
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e7a6e6ae-2492-4798-854b-0991afc19840")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f51ccecf-5457-4061-bb07-052cce035e66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dial Gear Potentiometer 3pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e575ac25-9291-410c-95fe-487fd6cadc20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.984056 6.37959)
+		(end -4.984056 8.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "553c714a-b78c-4938-a14d-b67b476e2ba1")
+	)
+	(fp_line
+		(start -4.984056 8.4)
+		(end 5 8.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f56185fa-81b4-4d5b-acd5-bb8700e2ccb8")
+	)
+	(fp_line
+		(start 5 8.4)
+		(end 4.984056 6.379591)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9dd2984-cb26-457b-aa14-de97ef8666d1")
+	)
+	(fp_arc
+		(start -4.984056 6.379592)
+		(mid -7.882011 1.847677)
+		(end -7.3 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dc97e48-302e-4a5c-9da6-a14fca6027e2")
+	)
+	(fp_arc
+		(start 7.3 -3.5)
+		(mid 7.88201 1.847677)
+		(end 4.984056 6.379592)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1bd1b3bb-c5e5-45dd-b474-c02c09c572f6")
+	)
+	(fp_line
+		(start -7.3 -4.3)
+		(end 7.3 -4.3)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Cmts.User")
+		(uuid "0b4367ab-a364-4247-ac5e-c3f996423b55")
+	)
+	(fp_line
+		(start -4.9 8.3)
+		(end -4.9 6.399999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "69b84738-ca57-4e2c-bf87-b2f9de129b2f")
+	)
+	(fp_line
+		(start 4.899999 6.4)
+		(end 4.9 8.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "076c3347-97e9-4661-8ebb-a0fd905aad23")
+	)
+	(fp_line
+		(start 4.9 8.3)
+		(end -4.9 8.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f567fdc-1320-4140-877a-2f4a9d3e43df")
+	)
+	(fp_arc
+		(start -4.9 6.4)
+		(mid 0 -8.060397)
+		(end 4.9 6.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "19ef0544-27d8-417d-9c09-61b76019ee1a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1f5a84fc-8ec3-429c-9763-7a51d3a2daae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a264fca-f8cd-4d7f-a70b-0e288188f6b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -5 -2.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "012626a7-6bfd-45d5-85e4-b13c98a74251")
+	)
+	(pad "" thru_hole circle
+		(at 5 -2.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffe9cd36-17fb-4b3f-a814-363abe7d9e49")
+	)
+	(pad "1" thru_hole circle
+		(at -4 7.5)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89b5cb44-8f3e-41b2-95aa-ac06952b6147")
+	)
+	(pad "2" thru_hole circle
+		(at 0 7.5)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95df9728-3212-40bb-9eac-83c8a55d0f96")
+	)
+	(pad "3" thru_hole circle
+		(at 4 7.5)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5a2a4af-dfae-46bd-b9ab-e7528744dff8")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/potentiometer_disk_3pin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

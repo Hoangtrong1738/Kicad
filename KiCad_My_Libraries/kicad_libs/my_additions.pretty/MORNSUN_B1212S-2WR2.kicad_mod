@@ -1,0 +1,204 @@
+(footprint "MORNSUN_B1212S-2WR2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MORNSUN DC-DC isolator. Single")
+	(property "Reference" "REF**"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(uuid "cb2a34a4-6774-4004-9823-5b48a332bc75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B1212S-2WR2"
+		(at -0.25 -2 0)
+		(layer "F.Fab")
+		(uuid "650839f4-132c-4ad9-bb74-6504ac3a1f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dfdafd8-3607-4fdd-9122-e5cfddf60153")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97bd2bbd-eb17-4f03-814a-0aac23abcd11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10 -1)
+		(end 9.75 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a765fe6-1058-4fb3-8b70-337036978fac")
+	)
+	(fp_line
+		(start -10 6.25)
+		(end -10 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a067c484-1194-4f74-8082-d4b49c21d177")
+	)
+	(fp_line
+		(start 9.75 -1)
+		(end 9.75 6.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48421134-154d-47c3-9404-15a8209af134")
+	)
+	(fp_line
+		(start 9.75 6.25)
+		(end -10 6.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16faae0b-a0d0-4ae2-be0e-427b8c9ed16a")
+	)
+	(fp_rect
+		(start -10 -1)
+		(end 9.7 6.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "55d73ae2-ce36-4d7a-b777-a1a9694a1384")
+	)
+	(fp_rect
+		(start -10 -1)
+		(end 9.7 6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0df4fe57-0704-4a28-b8c5-14adae07951b")
+	)
+	(fp_text user "+Vo"
+		(at 5 2.5 90)
+		(layer "F.SilkS")
+		(uuid "4f1549c4-23be-4984-a5f1-f314537419ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Vin"
+		(at -7.5 2 90)
+		(layer "F.SilkS")
+		(uuid "82677359-4c7d-49b7-8eb1-cabfc8d002a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "0V"
+		(at 0 2 90)
+		(layer "F.SilkS")
+		(uuid "e4dcd986-f68b-4984-a155-1f0f3e0901ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -5 2.5 90)
+		(layer "F.SilkS")
+		(uuid "fa366cbd-e18d-4bbe-86ef-2cfacad90535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b06d8fe-ac9a-4e59-9535-13e6facb2948")
+	)
+	(pad "2" thru_hole circle
+		(at -5 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba3bef22-150a-4ded-8ff0-4f921ef9b400")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32893100-21a1-48d4-845d-c938ab115b62")
+	)
+	(pad "6" thru_hole circle
+		(at 5 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "167cbe78-bf55-4581-9d93-bc243587bf60")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/MORNSUN_BxxxxS-2WR2.step"
+		(offset
+			(xyz -9.85 -6.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

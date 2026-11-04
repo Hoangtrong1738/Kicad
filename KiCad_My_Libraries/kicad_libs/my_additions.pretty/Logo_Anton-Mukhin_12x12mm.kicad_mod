@@ -1,0 +1,209 @@
+(footprint "Logo_Anton-Mukhin_12x12mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Anton Mukhin logo 12x12mm")
+	(tags "Anton, Mukhin, logo,")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3aef418e-1ae0-4890-b476-98f5480971c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Logo_Anton-Mukhin_12x12mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29a6f25a-cab5-4a17-bf6e-77ab44ee2900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ca5993c-8cf4-4628-a430-a2829271f08c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7495feba-3b88-4e61-ae67-6c2f2768f6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -6 -5)
+		(end -6 5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b472e2f5-53a8-4a3d-ba05-623f9bc53cd6")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1fd6f7d5-1305-4a86-ac8f-200c701f69bc")
+	)
+	(fp_line
+		(start -5 6)
+		(end 5 6)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6032eed5-c2d3-4200-8fa2-1f7dfe051401")
+	)
+	(fp_line
+		(start 0 -5)
+		(end -5 5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9bb623b4-22c2-4b0e-a35d-6ec2fc6d99b4")
+	)
+	(fp_line
+		(start 0 2)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67c0fb26-91a7-4749-8e01-adc79ed22f47")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 0 2)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c592288-ea2f-49d8-bd08-0979d8e59c4b")
+	)
+	(fp_line
+		(start 5 -6)
+		(end -5 -6)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58c85f90-0722-4992-bc57-ac727fbd85aa")
+	)
+	(fp_line
+		(start 5 5)
+		(end 0 -5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7cd3580-4cd4-4647-bec1-3c7b43c63c36")
+	)
+	(fp_line
+		(start 6 5)
+		(end 6 -5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23aac0f4-c30d-42b6-8718-30ed05d43d47")
+	)
+	(fp_arc
+		(start -6 -5)
+		(mid -5.707107 -5.707107)
+		(end -5 -6)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd72cc8-044f-4f51-b0ce-6e099ca996c6")
+	)
+	(fp_arc
+		(start -5 6)
+		(mid -5.707107 5.707107)
+		(end -6 5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5e8d443-1a28-4d16-9768-4f755d3a2a14")
+	)
+	(fp_arc
+		(start 5 -6)
+		(mid 5.707107 -5.707107)
+		(end 6 -5)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d09708a-9d53-40f1-a067-c8ea5fe17d26")
+	)
+	(fp_arc
+		(start 6 5)
+		(mid 5.707107 5.707107)
+		(end 5 6)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f3adea9-7361-4078-bbec-634fd448cede")
+	)
+	(fp_text user "Anton Mukhin"
+		(at 0 7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36c661af-b400-44db-9515-7521e22ef10d")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.22)
+				(bold yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

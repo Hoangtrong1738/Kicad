@@ -1,0 +1,136 @@
+(footprint "SS-12D10Lx_slider_switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XKB SS-12D10Lx SPDT Slider switch")
+	(tags "sp2t, spdt, slider, switch")
+	(property "Reference" "REF**"
+		(at -6.9 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "06883f12-e420-49fa-8e12-062b53d87d50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "SS-12D10Lx"
+		(at 0 4.3 0)
+		(layer "F.Fab")
+		(uuid "c7d10a78-9410-4642-8c16-ebf3dadc11b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32905cd1-efd8-4fcf-b2e3-862379585490")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "569d5c99-778e-4230-baea-08f8b9adc2b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.6 -3.5)
+		(end 6.6 3.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d6d6816b-e45e-4654-a13e-50e189bb7e83")
+	)
+	(fp_rect
+		(start -6.5 -3.4)
+		(end 6.5 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "22ad0724-38e6-4c25-9e52-7f4faf12c14a")
+	)
+	(fp_rect
+		(start -6.4 -3.3)
+		(end 6.4 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4f30929a-dde7-4f2a-8d4e-bb9dae64790a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.3 0)
+		(layer "F.Fab")
+		(uuid "da55f86b-425e-4a2b-bc00-a147748c768c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.7 0)
+		(size 2.9 4.5)
+		(drill oval 0.9 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a7b43c4-f7a3-42cf-8256-a78ad582b01f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2.9 4.5)
+		(drill oval 0.9 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91b216c6-0cec-419f-b817-e81bad319e29")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0)
+		(size 2.9 4.5)
+		(drill oval 0.9 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b01d86d1-086f-49db-b46f-acbf9458114d")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/ss-12d10l5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

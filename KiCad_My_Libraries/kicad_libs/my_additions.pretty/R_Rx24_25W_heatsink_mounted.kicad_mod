@@ -1,0 +1,281 @@
+(footprint "R_Rx24_25W_heatsink_mounted"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "resistor 25W heatsink")
+	(property "Reference" "REF**"
+		(at -14.4 16 90)
+		(layer "F.SilkS")
+		(uuid "2a6936d1-59a4-4de0-9605-6f412c28a6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "R_Rx24_25W_heatsink_mounted"
+		(at 0 8.5 0)
+		(layer "F.Fab")
+		(uuid "9c85f8ed-e250-4379-93c8-cf22572f220e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b47e53eb-c071-4b81-b813-23202de81e23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f1aa0c3-1b95-44a6-ae5d-9dfdc88cfca3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.6 0.2)
+		(end -13.6 15.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "267c9be8-9da7-4387-9a29-068cef0906e5")
+	)
+	(fp_line
+		(start -13.6 1.5)
+		(end -5.5 1.5)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "64fbe282-445f-473d-be47-ac422c6c5264")
+	)
+	(fp_line
+		(start -13.6 15.8)
+		(end 13.6 15.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a58d6e2-78cb-4ec4-802d-2591133782c1")
+	)
+	(fp_line
+		(start -5.5 1.5)
+		(end -5.5 0.2)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "a4993d76-7ee6-4c34-9438-122bbce2174f")
+	)
+	(fp_line
+		(start 5.5 1.5)
+		(end 5.5 0.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c7a0cec-6a61-45c6-b1ed-ded9f9ebf161")
+	)
+	(fp_line
+		(start 13.6 1.5)
+		(end 5.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40d2f864-82f2-4398-a1b3-4626c14fba35")
+	)
+	(fp_line
+		(start 13.6 15.8)
+		(end 13.6 0.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9726ca7a-7620-4702-84fb-1fb4a74a94ee")
+	)
+	(fp_line
+		(start -14 0)
+		(end 14 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Cmts.User")
+		(uuid "b6325a41-7fad-4c46-9d6a-ad329ba66fcc")
+	)
+	(fp_circle
+		(center -22.5 7)
+		(end -20.7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b2b59dc1-c43e-4273-9230-83d5bcc6ec4e")
+	)
+	(fp_circle
+		(center 22.5 7)
+		(end 24.3 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "09f7cf1a-5d4b-47c2-9883-998b11beed2e")
+	)
+	(fp_line
+		(start -20.6 7)
+		(end -13.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bc69b058-c83c-44e2-9714-d27eb8d8fd65")
+	)
+	(fp_line
+		(start -5.6 0.2)
+		(end -5.6 1.4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "948f9027-9b5a-4496-aab9-f06a62cad280")
+	)
+	(fp_line
+		(start -5.6 1.4)
+		(end -13.5 1.4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "a29add7e-df50-434a-91b0-f15fc82235e4")
+	)
+	(fp_line
+		(start 5.6 0.2)
+		(end 5.6 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "df10e2c3-c140-4519-b3fe-107a46eab091")
+	)
+	(fp_line
+		(start 5.6 1.4)
+		(end 13.5 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9f5b1bfb-4a60-4c7a-818b-80d477562111")
+	)
+	(fp_line
+		(start 20.6 7)
+		(end 13.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "802e988c-1ff4-43e5-8153-776c63dc200c")
+	)
+	(fp_rect
+		(start -13.5 0.15)
+		(end 13.5 15.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "967a6ec5-32ca-4f57-81be-5c29a1c549f5")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "a509c496-f7c7-41cf-9b24-6a2ad1083e4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "f05a62a7-3ce3-424c-8bc0-3875c5a5b476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -22.5 7)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "233aed25-a0ec-4f7d-9d74-85727a84e22b")
+	)
+	(pad "2" thru_hole circle
+		(at 22.5 7)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e243346f-a828-478c-9ab5-ca6bc37cdf3a")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/R_25W_with_heatsonk.step"
+		(offset
+			(xyz 0 0 15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

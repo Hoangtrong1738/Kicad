@@ -1,0 +1,236 @@
+(footprint "LED_SK6812MINI-012"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "f3f599d1-b1e0-4872-a2e6-18eb18b9def7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SK6812MINI-012"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "7f19e271-9ec3-4785-9348-fc554bcccc4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a708c49-84d5-4ec9-9be6-77beb8b0824e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44243d06-5228-4f27-8e88-a4e1fc2d7353")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45d2ad69-894c-4d25-a74f-2c1e68b10419")
+	)
+	(fp_line
+		(start -1.9 -1.4)
+		(end -1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01d2affe-88d9-46b3-b0ed-55bc4cce82c7")
+	)
+	(fp_line
+		(start -1.9 1.4)
+		(end -1.9 1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e48db661-495d-467b-88b8-5ca01f44ce55")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end 1.4 1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59bde027-32bb-44c2-b30f-b4c7ded2746c")
+	)
+	(fp_line
+		(start 1.4 1.9)
+		(end 1.9 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b342723-0c7c-405a-b6d4-630f76822f26")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end 1.9 -1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e57454b2-5920-4831-ba79-0519009a1bb7")
+	)
+	(fp_rect
+		(start -1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eab8cd1b-791a-4e69-b94a-1e15f2bac2fe")
+	)
+	(fp_line
+		(start -1.9 -1.9)
+		(end -1.9 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fd548db6-c8c8-4996-ae38-32b9a2037a75")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end 1.4 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "de056733-273a-4969-9065-dec7665f0a28")
+	)
+	(fp_line
+		(start 1.4 1.9)
+		(end 1.9 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6ba8ed68-cd62-4eab-b67e-3a370de58057")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end -1.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b48cf4c-2f9c-4195-9f2d-e07a1e0c506f")
+	)
+	(fp_line
+		(start 1.9 1.4)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a1a8ef90-6472-423e-96dd-db0c4509a5f0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0d627719-cf8d-4553-88f6-8ac148fd8b44")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "0c507a7d-7abf-4cdc-9ff3-39f543339aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 0.85)
+		(size 1.3 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b53aba51-3f30-431d-afa8-4337b3913f05")
+	)
+	(pad "2" smd rect
+		(at 1.05 -0.7)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cd18c868-4c8f-43a6-9a6e-41cd664275ea")
+	)
+	(pad "3" smd rect
+		(at -1.4 -0.65)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3b42f95c-da07-4f16-aca9-a3e3a830163a")
+	)
+	(pad "4" smd rect
+		(at -0.95 0.9)
+		(size 2.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e265a5dd-78ea-422a-9308-a36d14ebca82")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/SK6812MINI-012.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

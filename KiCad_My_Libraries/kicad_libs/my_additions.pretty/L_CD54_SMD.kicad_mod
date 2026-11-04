@@ -1,0 +1,138 @@
+(footprint "L_CD54_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CD54 SMD Inductor")
+	(tags "CD54, inductor")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "6cd7afcb-98af-45f2-a633-4cd9080cead2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CD54"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "9e265282-3ec8-4dde-b74f-2d4a552b7c4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7e181a8-53ab-4071-ae17-319fccc80ee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CD54 SMD Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cc66e90-7fcf-44d9-b543-ef8d5f7b15d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -2.8)
+		(end 0.9 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18e3767e-a6fa-44c8-ac64-03a816e85773")
+	)
+	(fp_line
+		(start -0.9 2.8)
+		(end 0.9 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f369067-7837-409d-a90f-4ee4fd0973f4")
+	)
+	(fp_rect
+		(start -3 -2.7)
+		(end 3 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c450ca7-4cbb-43a8-a652-02a8b8badd5e")
+	)
+	(fp_rect
+		(start -2.9 -2.6)
+		(end 2.9 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8512bcbf-7117-4bf9-be92-14de0bc57504")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eae1a3f7-3b84-4986-87c2-9c3a4c751b04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.925 0)
+		(size 2.15 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1162790698)
+		(thermal_bridge_angle 45)
+		(uuid "b3adf40a-b5ca-4190-9cb4-c493fea7bcb3")
+	)
+	(pad "2" smd roundrect
+		(at 1.925 0)
+		(size 2.15 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1162790698)
+		(thermal_bridge_angle 45)
+		(uuid "1746b3fc-d1e2-4e05-8bfe-ed2b1b1e78d4")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/SMD_Inductor_CD54.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

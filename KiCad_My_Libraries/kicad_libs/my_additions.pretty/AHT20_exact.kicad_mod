@@ -1,0 +1,180 @@
+(footprint "AHT20_exact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Humidity and Temperature Sensor")
+	(tags "humidity, temperature, sensor")
+	(property "Reference" "REF**"
+		(at 0.1 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fadb8cbd-0ecf-417d-bc89-d413bda90d34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AHT20_exact"
+		(at 0.3 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a929f35a-e04e-4f3c-8b09-10072ce4d0fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a97cf27-9145-429a-ab28-4e9df67c8783")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e2d3f33-11d1-4300-80b6-d4608469a946")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.7 -1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "71c2ddd3-2cf7-4eb9-bcf4-ae0dfa8dd254")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.9) (xy -0.5 -1.2) (xy -0.2 -1.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e71f9eb3-3ee9-4dbc-bfc2-22a0138736db")
+	)
+	(fp_rect
+		(start -1.6 -1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2318bd8a-e011-4a11-b964-1f056ca1276f")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "765f011f-143f-44db-9e7f-8ce32896acab")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.9) (xy -0.5 -1.2) (xy -0.2 -1.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "745867b6-5c89-4466-a63d-51696a61e774")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5bf28d8-8a80-4113-aaea-5439ea679532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -1)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "690fa992-4204-483e-a34e-f0a12c895ba0")
+	)
+	(pad "2" smd rect
+		(at -1 0)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d903c4fc-c469-4922-8a5f-e9074086a60a")
+	)
+	(pad "3" smd rect
+		(at -1 1)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "66d19cf9-30de-4eac-8e53-63de96b41374")
+	)
+	(pad "4" smd rect
+		(at 1 1)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b7ddb2a6-9cec-4d77-82e5-fe333e1fc230")
+	)
+	(pad "5" smd rect
+		(at 1 0)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4ca26a4c-b1b6-47b2-8ba9-fd074433532a")
+	)
+	(pad "6" smd rect
+		(at 1 -1)
+		(size 0.8 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8a6b1c9c-d6ec-4e85-a0a2-ae7e56646108")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/AHT20_Sensor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

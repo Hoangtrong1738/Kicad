@@ -1,0 +1,155 @@
+(footprint "Crystal_Seiko_MC-146_4P-L6.7-W1.5-P0.85-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "crystal, oscillator")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "9e3c05c0-d1c5-41fd-b88b-6d8d9e6b4acb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_Seiko_MC-146_4P-L6.7-W1.5-P0.85-BL"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "6d066847-ce2f-4727-95af-1df41b493a90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f54f32d-659f-423d-b8ba-2f1f65ea20f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "520bbdbe-e1d8-4834-9cfa-616ade1583f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -0.75)
+		(end 2.45 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e66782e1-515c-440d-852e-405a8a3c9b3b")
+	)
+	(fp_line
+		(start -2.45 0.75)
+		(end 2.45 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e994d502-3b16-4070-b8cd-b93f2d798be8")
+	)
+	(fp_poly
+		(pts
+			(xy -2.4 1.5) (xy -3 1.5) (xy -2.7 1.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f9e36e40-c0a8-490d-bccb-47b9c586f652")
+	)
+	(fp_rect
+		(start -3.4 -0.8)
+		(end 3.4 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1907d76-d7ca-427c-b771-242883ceca68")
+	)
+	(fp_rect
+		(start -2.5 -0.7)
+		(end 2.5 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "df6e844b-7433-4572-b2e5-00d1e78cac4a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4d8abf43-1894-4c66-aeec-94601248b072")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.4 0.45)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0078d957-4a45-4974-b31b-fae2206d348a")
+	)
+	(pad "2" smd rect
+		(at 3.4 0.45)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "968d6375-3442-473b-9641-c79ca0705a95")
+	)
+	(pad "3" smd rect
+		(at 3.4 -0.45)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eba99aad-7b0c-4d4f-b893-5ecf807ed678")
+	)
+	(pad "4" smd rect
+		(at -3.4 -0.45)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da03ad79-d7f3-4b8d-9c6e-4b14f14b8291")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Crystal_Seiko_MC-146_4P-L6.7-W1.5-P0.85-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,170 @@
+(footprint "Standard_Blade_Fuse_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "fuse holder")
+	(property "Reference" "REF**"
+		(at -10.3 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "e4158ac5-a5b4-41b0-84d5-1d5d6fa33439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Standard_Blade_Fuse_Holder"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "6a8cdafc-e63c-4d39-95a5-4cf334b43c32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9dd9147-e734-4616-af05-de9482ca964c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9277c1a-dfa2-445a-ad51-bfd884d102c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.1 -3.8)
+		(end 10.1 3.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0bd27de1-3ddb-4bc7-b76c-10fca8fc1130")
+	)
+	(fp_rect
+		(start -10 -3.7)
+		(end 10 3.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2443dd4-855f-4860-b385-f966bfed0c2e")
+	)
+	(fp_line
+		(start -6.9 0)
+		(end 6.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2cbd32a4-2745-40ad-8cbc-d2c9924cf82a")
+	)
+	(fp_rect
+		(start -10 -3.7)
+		(end 10 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cbd31232-378f-4591-9780-61f56309ea7e")
+	)
+	(fp_rect
+		(start -4 -1.3)
+		(end 4 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1fbaa0cd-c473-47e0-9a0f-c20da357a36e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "6e1fbb63-3b81-4c7d-b6ce-56fac91870f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -6.95 -1.95)
+		(size 4.6 3)
+		(drill oval 2.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ecf5d6be-a824-42fa-acdc-49471718344f")
+	)
+	(pad "1" thru_hole oval
+		(at -6.95 1.95)
+		(size 4.6 3)
+		(drill oval 2.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5098a1a1-89eb-4b4b-bff1-a6121eac7cce")
+	)
+	(pad "2" thru_hole oval
+		(at 6.95 -1.95)
+		(size 4.6 3)
+		(drill oval 2.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "9c6e1c9b-92d1-45a0-95dd-0df06cb6df09")
+	)
+	(pad "2" thru_hole oval
+		(at 6.95 1.95)
+		(size 4.6 3)
+		(drill oval 2.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "340a7def-e510-4114-a630-23b4c8f6119e")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/Standard_Blade_Fuse_Holder_with_fuse.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

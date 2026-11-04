@@ -1,0 +1,145 @@
+(footprint "Light_heatsink"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.4 -2 0)
+		(layer "F.SilkS")
+		(uuid "a6820fd9-cdfe-4427-9e50-392e75e484e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Light heatsink"
+		(at 0.15 13.75 0)
+		(layer "F.Fab")
+		(uuid "57341229-b6c7-401c-a450-319dbeedc7b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bee3188c-789a-4bd1-b5d1-836ccabc5eb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab415a5c-a9bb-4cb8-a042-f775adf342b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.65 -0.9)
+		(end -6.65 12.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b43f2d1d-5c1c-43f3-a50f-8cf54848a50b")
+	)
+	(fp_line
+		(start -6.65 -0.9)
+		(end 6.65 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31f31927-cdec-4685-ad6e-9f21d6d22e01")
+	)
+	(fp_line
+		(start -6.65 12.1)
+		(end -5.75 12.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15da021c-af09-4419-88cd-8d4290739c2a")
+	)
+	(fp_line
+		(start -5.75 12.1)
+		(end -5.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32f537da-81d2-42bd-9b89-9a2081d64ff1")
+	)
+	(fp_line
+		(start 5.75 0)
+		(end -5.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e35e13b-a9c6-4c26-9b6d-85df5f87ffc1")
+	)
+	(fp_line
+		(start 5.75 12.1)
+		(end 5.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31e60fe5-9b06-4a2b-924d-d499f538ee09")
+	)
+	(fp_line
+		(start 6.65 -0.9)
+		(end 6.65 12.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8a93a77-113e-4f47-8d16-b6e32e9ec38c")
+	)
+	(fp_line
+		(start 6.65 12.1)
+		(end 5.75 12.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d63daa8f-0f18-412c-861f-44a55b5abeca")
+	)
+	(embedded_fonts no)
+	(model "${MY_ADDITIONS}/light_heatsink.step"
+		(offset
+			(xyz 0 -5.6 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
